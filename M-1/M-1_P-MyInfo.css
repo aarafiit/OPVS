@@ -1,0 +1,278 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #007bff; /* Header background color (blue) */
+    color: #fff; /* Text color (white) */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    position: fixed; /* Fix the header position */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it full-width */
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header img {
+    width: 50px; /* Adjust logo size as needed */
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+
+
+
+
+.sidebar {
+    position: fixed; /* Fix the sidebar position */
+    top: 15%; /* Position it at the top of the viewport */
+    /* Sidebar background color (blue) */
+    color: white;
+    width: 10%;
+    height: 100%; /* Make it the full height of the viewport */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    z-index: 99; /* Ensure it's above other elements except the header */
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(38, 38, 41), rgb(51, 52, 53));
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Only include background-color in the transition */
+}
+
+.sidebar button:hover {
+    background: linear-gradient(to right, rgb(34, 35, 36), rgb(2, 9, 14));
+    color: rgb(245, 241, 241);
+    /* Change text color on hover */
+    padding: 20px;
+}
+
+/* Main content area */
+.content {
+    margin-left: 250px; /* Match the width of the sidebar */
+    padding: 20px;
+}
+
+#myinfo{
+    background-color: #007bff;
+}
+
+#current_page{
+    background: linear-gradient(to right, rgb(208, 216, 220), rgb(2, 9, 14));
+    color: rgb(6, 0, 0); /* Change text color on hover */
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+/* Reset some default styles for cross-browser consistency */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a background color and font family */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the container */
+.container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20%;
+    margin-left : 0%;
+}
+
+/* Style the headings and paragraphs */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Add some responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and default font styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+/* Style the sidebar */
+.sidebar {
+    /* background-color: #222; */
+    color: white;
+    width: 150px;
+    float: left;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 15px;
+    background-color: #444;
+    border: none;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #555;
+}
+
+/* Style the active button (current page) */
+#current_page {
+    background-color: #555;
+}
+
+/* Main Content */
+.content {
+    margin-left: 240px; /* Adjust based on the sidebar width */
+    padding: 20px;
+    margin-top: 70px; /* Ensure content doesn't overlap with header */
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.container {
+    position: absolute;
+    left: 15%;
+    top: 14%;
+    width: 160vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Style tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Adjust the sidebar width for smaller screens */
+    .sidebar {
+        width: 100px;
+    }
+
+    .sidebar button {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    /* Adjust the margin for the content area */
+    .content {
+        margin-left: 120px;
+    }
+}
+
+

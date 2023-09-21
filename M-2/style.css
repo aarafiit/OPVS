@@ -1,0 +1,424 @@
+body {
+    background:linear-gradient(to right,rgb(82, 157, 178),rgb(0, 75, 128));
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.button-group {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 20px;
+    top: 20px;
+}
+
+.button-group button {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #465fc1;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group button:hover {
+    background-color: #344e99;
+}
+
+.button-group i {
+    margin-right: 10px;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a base font size and type */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Background styles */
+body {
+    background-image: url('/images/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/* Top bar styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding-left: 340px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    
+    font-weight: bold;
+    font-family: 'ITC Benguiat';
+}
+
+/* Button container styles */
+.buttons {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+/* Button styles */
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.button img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#new-button,
+#status-button,
+#myinfo-button,
+#helpdesk-button {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ITC Benguiat';
+}
+
+#new-button {
+    background-color: rgb(222, 164, 94);
+    color: #f0f0f0;
+    text-shadow: 2px;
+}
+
+#status-button {
+    background-color: green;
+    color: #f0f0f0;
+}
+
+#myinfo-button {
+    background-color: rgb(198, 216, 107);
+    color: aliceblue;
+}
+
+#helpdesk-button {
+    background-color: rgb(247, 166, 179);
+    font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #616064;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer img {
+    width: 40px;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a base font size and type */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Background styles */
+body {
+    background-image: url('/images/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/* Top bar styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding-left: 340px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    
+    font-weight: bold;
+    font-family: 'ITC Benguiat';
+}
+
+/* Button container styles */
+.button-group {
+    display: flex;
+    flex-direction: column; /* Change flex-direction to column */
+    align-items: center;
+    margin-top: 20px;
+    top: 20px;
+}
+
+/* Button styles */
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.button img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#new-button,
+#status-button,
+#myinfo-button,
+#helpdesk-button {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ITC Benguiat';
+}
+
+#new-button {
+    background-color: rgb(222, 164, 94);
+    color: #f0f0f0;
+    text-shadow: 2px;
+}
+
+#status-button {
+    background-color: green;
+    color: #f0f0f0;
+}
+
+#myinfo-button {
+    background-color: rgb(198, 216, 107);
+    color: aliceblue;
+}
+
+#helpdesk-button {
+    background-color: rgb(247, 166, 179);
+    font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #616064;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer img {
+    width: 40px;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+

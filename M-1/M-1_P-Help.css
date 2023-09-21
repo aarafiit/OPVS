@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #272a2d; /* Header background color (blue) */
+    color: #fff; /* Text color (white) */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    position: fixed; /* Fix the header position */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it full-width */
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header img {
+    width: 50px; /* Adjust logo size as needed */
+}
+
+.header h1 {
+    font-size: 24px;
+}
+.sidebar {
+    position: fixed; /* Fix the sidebar position */
+    top: 15%; /* Position it at the top of the viewport */
+    /* Sidebar background color (blue) */
+    color: white;
+    width: 10%;
+    height: 100%; /* Make it the full height of the viewport */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    z-index: 99; /* Ensure it's above other elements except the header */
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(47, 47, 49), rgb(34, 37, 39));
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Only include background-color in the transition */
+}
+
+.sidebar button:hover {
+    background: linear-gradient(to right, rgb(50, 52, 52), rgb(2, 9, 14));
+    color: rgb(245, 241, 241);
+    /* Change text color on hover */
+    padding: 20px;
+}
+  #table1 {
+    /* top: 20%; */
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    float: left; /* Adjust this width accordingly */
+    width: 70%; /* Adjust this width accordingly */
+    border-collapse: collapse;
+    margin-left: 10px; /* Adjust the margin to create space between table and sidebar */
+}
+
+#table2 {
+    /* top: 20%; */
+    position: absolute;
+    top : 88%;
+    left: 17%;
+    float: left; /* Adjust this width accordingly */
+    width: 70%; /* Adjust this width accordingly */
+    border-collapse: collapse;
+    margin-left: 10px; /* Adjust the margin to create space between table and sidebar */
+}
+
+#table3 {
+    /* top: 20%; */
+    position: absolute;
+    top : 130%;
+    left: 17%;
+    float: left; /* Adjust this width accordingly */
+    width: 70%; /* Adjust this width accordingly */
+    border-collapse: collapse;
+    margin-left: 10px; /* Adjust the margin to create space between table and sidebar */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: blanchedalmond;
+}
+
+
+#current_page{
+    background: linear-gradient(to right, rgb(208, 216, 220), rgb(2, 9, 14));
+    color: rgb(6, 0, 0); /* Change text color on hover */
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+    
+
+
+

@@ -1,0 +1,584 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    background-color: #007bff; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 100; 
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header img {
+    width: 50px; 
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+.content {
+    
+    margin-left: 250px; 
+    padding: 20px;
+}
+
+#new{
+    background-color: #007bff;
+}
+
+
+.container {
+    
+    position: absolute;
+    left: 23%;
+    top: 18%;
+    width: 150vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; 
+    
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #007bff; /* Header background color (blue) */
+    color: #fff; /* Header text color (white) */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Center text input in the first column */
+td:first-child input[type="text"] {
+    text-align: center;
+}
+
+select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none; /* Remove default outline */
+}
+
+/* Style the dropdown arrow */
+select::after {
+    content: '\25BC'; /* Unicode for a down-pointing triangle or arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the arrow doesn't interfere with clicks */
+}
+
+/* Style the select element on hover and focus */
+select:hover, select:focus {
+    border-color: #007bff; /* Change border color on hover/focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
+}
+
+#crimeno{
+
+    width: 30%;
+
+}
+
+#crime_des{
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .sidebar {
+    position: fixed; /* Fix the sidebar position */
+    top: 15%; /* Position it at the top of the viewport */
+    /* Sidebar background color (blue) */
+    color: white;
+    width: 10%;
+    height: 100%; /* Make it the full height of the viewport */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    z-index: 99; /* Ensure it's above other elements except the header */
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(57, 29, 199), rgb(0, 75, 128));
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Only include background-color in the transition */
+}
+
+.sidebar button:hover {
+    background: linear-gradient(to right, rgb(67, 161, 211), rgb(2, 9, 14));
+    color: rgb(245, 241, 241);
+    /* Change text color on hover */
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/images/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header styling */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header img {
+    width: 50px;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* Main content area */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.container {
+    position: absolute;
+    left: 15%;
+    top: 14%;
+    width: 160vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: 'ITC Benguiat';
+    src: url('path/to/itc-benguiat.woff2') format('woff2'),
+       url('path/to/itc-benguiat.woff') format('woff');
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    font-family: 'ITC Benguiat';
+  src: url('path/to/itc-benguiat.woff2') format('woff2'),
+       url('path/to/itc-benguiat.woff') format('woff');
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+input[type="text"],
+input[type="date"] {
+    font-family: 'ITC Benguiat';
+  src: url('path/to/itc-benguiat.woff2') format('woff2'),
+       url('path/to/itc-benguiat.woff') format('woff');
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+td:first-child input[type="text"] {
+    text-align: center;
+}
+
+select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+select:hover, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 11%;
+    color: white;
+    width: 10%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+.sidebar button {
+    font-family: 'ITC Benguiat';
+  src: url('path/to/itc-benguiat.woff2') format('woff2'),
+       url('path/to/itc-benguiat.woff') format('woff');
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(66, 66, 70), rgb(32, 34, 35));
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+    background: linear-gradient(to right, rgb(67, 161, 211), rgb(2, 9, 14));
+    color: rgb(245, 241, 241);
+    padding: 20px;
+}
+
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and default font styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+/* Style the sidebar */
+.sidebar {
+    /* background-color: #222; */
+    color: white;
+    width: 150px;
+    float: left;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar button {
+    font-family: 'ITC Benguiat';
+  src: url('path/to/itc-benguiat.woff2') format('woff2'),
+       url('path/to/itc-benguiat.woff') format('woff');
+    width: 100%;
+    padding: 15px;
+    background-color: #444;
+    border: none;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #555;
+}
+
+.sidebar .active {
+    background-color: #555;
+}
+
+/* Main content area */
+.content {
+    margin-left: 240px; /* Adjust based on the sidebar width */
+    padding: 20px;
+    margin-top: 70px; /* Ensure content doesn't overlap with header */
+}
+
+/* Style the form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: 'ITC Benguiat';
+  src: url('path/to/itc-benguiat.woff2') format('woff2'),
+       url('path/to/itc-benguiat.woff') format('woff');
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Adjust the sidebar width for smaller screens */
+    .sidebar {
+        width: 100px;
+    }
+
+    .sidebar button {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    /* Adjust the margin for the content area */
+    .content {
+        margin-left: 120px;
+    }
+}
+
+

@@ -1,0 +1,291 @@
+
+
+body{
+  background: linear-gradient(to right, #bfd0da, #2980b9);
+  
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a default font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.logo img {
+  max-width: 100px; /* Limit the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  background-color: rgb(42, 45, 45);
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+}
+
+#logoutbutton{
+ 
+  position: absolute;
+    right: 20px; /* Adjust the right position as needed */
+    top: 20px; /* Adjust the top position as needed */
+    padding: 10px 20px;
+    background-color: #ff0000; /* Red background color */
+    color: #fff; /* Text color (white) */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hover effect */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold; /* Add bold text */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+
+#logoutbutton:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+.header-image {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  float: left;
+  width: 10%;
+  top : 15%;
+  color: white;
+  padding: 20px;
+  
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, rgb(48, 48, 50), rgb(55, 57, 58));
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Only include background-color in the transition */
+}
+
+.sidebar button:hover {
+  background-color:rgb(224, 224, 238);
+  /* Change text color on hover */
+  padding: 15px;
+}
+
+
+
+.case1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:linear-gradient(to right,rgb(58, 60, 60),rgb(31, 32, 33));
+  padding: 10px;
+}
+
+.case1 p.case-description {
+  margin: 0;
+}
+
+.case1 .button-group {
+  display: flex;
+}
+
+.case1 button {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+.case2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:linear-gradient(to right,rgb(155, 159, 160),rgb(157, 208, 244));
+  padding: 10px;
+}
+
+.case2 p.case-description {
+  margin: 0;
+}
+
+.case2 .button-group {
+  display: flex;
+}
+
+.case2 button {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+/* Content styling */
+.content {
+  margin-left: 20%;
+  padding: 20px;
+  
+}
+
+
+
+body{
+  background:linear-gradient(to right,rgb(82, 157, 178),rgb(0, 75, 128));
+  
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a default font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.th{
+border: 1px;
+}
+/* Header styling */
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header-image {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  float: left;
+  width: 10%;
+  color: white;
+  padding: 20px;
+  
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+  background: linear-gradient(to right, rgb(47, 46, 49), rgb(55, 56, 57));
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Only include background-color in the transition */
+}
+
+.sidebar button:hover {
+  background: linear-gradient(to right, rgb(53, 54, 55), rgb(2, 9, 14));
+ /* color: black; */
+  /* Change text color on hover */
+  padding: 20px;
+}
+
+
+/* Content styling */
+.content {
+  margin-left: 13%;
+  padding: 20px;
+  margin-top: -20px;
+
+  
+}
+
+/* Add the following CSS code to your existing styles.css */
+
+/* Table styling */
+.content table {
+  width: 100%;
+  border-collapse:separate;
+  margin-top: 20px;
+}
+
+.content th, .content td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.content th {
+  background-color: #343634;
+  font-weight: bold;
+  color: white;
+}
+
+.content tr {
+  background-color: #deb6b6;
+  
+}
+
+/* .content tr:hover {
+  background-color: #ec9a9a;
+} */
+
+.accept-button, .decline-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accept-button {
+  background-color: green;
+  color: antiquewhite;
+  
+}
+
+.decline-button {
+  background-color: rgb(12, 10, 10);
+  color: white;
+}
+
+.accept-button:hover, .decline-button:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+
+
+
+
+
+
+

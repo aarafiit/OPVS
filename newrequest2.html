@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<script>
+  function redirectToNewRequest() {
+    window.location.href = "newrequest3.html";
+  }
+</script>
+<body>
+  <div class="header">
+    <img style="height: 25%; width:100%; border-radius: 20px;" src="homepage.png">
+  </div>
+  <div class="sidebar">
+    <button class="active" onclick="window.location.href='homepage.html';">Home</button>
+    <button onclick="window.location.href='newrequest.html';">New Verification Request</button>
+    <button onclick="window.location.href='M-1_P-New.html';" >New</button>
+    <button onclick="window.location.href='complete.html';">Complete File</button>
+    <button onclick="window.location.href='pending.html';">Pending File</button>
+    <button  onclick="window.location.href='M-1_P-1.html';" >Log Out</button>
+  </div>
+  <div class="content">
+    <table>
+      <tr>
+        <th>File</th>
+        <th>Date</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>file1.txt</td>
+        <td>10.3.2023</td>
+
+        <td>
+          <button class="decline-button" style="background-color: rgb(29, 3, 30); color: antiquewhite;" onclick="redirectToNewRequest()">Assign</button>
+        </td>
+      </tr>
+      <!-- Add more rows here -->
+    </table>
+  </div>
+</body>
+</html>

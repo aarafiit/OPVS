@@ -1,0 +1,398 @@
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    background-image: url('/images/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+header {
+    position: fixed;
+    top: 0; 
+    background-color: #007bff;
+    color: #fff;
+    font-family: 'ITC Benguiat';
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; 
+    z-index: 100;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+
+ .logo img {
+    width: 80px; 
+    padding: 5px 50px 0px 350px;
+    height: 80px;
+    
+} 
+
+
+
+
+
+
+.logo h1 {
+    font-size: 30px;
+    margin:0px;
+    padding: 0px 0px 0px 80px;
+    font: 'ITC Benguiat';
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+.buttons {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+    padding: 10px; 
+   
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.button img {
+    width: 50px; 
+    margin-bottom: 10px;
+    
+}
+
+
+.button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+#new-button{
+    padding : 10px 10px 10px 10px;
+    margin : 10px 10px 10px 10px;
+    width: 200px;
+    background-color: rgb(222, 164, 94);
+    color: #f0f0f0;
+    text-shadow: 2px;
+    font-weight: bold;
+    font-family: 'ITC Benguiat';
+    font-size: 30px;
+}
+
+#status-button{
+    padding : 10px 10px 10px 10px;
+    margin : 10px 10px 10px 10px;
+    width: 200px;
+    background-color: green;
+    font-family: 'ITC Benguiat';
+    font-size: 30px;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+
+#myinfo-button{
+    padding : 10px 10px 10px 10px;
+    margin : 10px 10px 10px 10px;
+    width: 200px;
+    background-color: rgb(198, 216, 107);
+    font-family: 'ITC Benguiat';
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#helpdesk-button{
+    padding : 10px 10px 10px 10px;
+    margin : 10px 10px 10px 10px;
+    width: 200px;
+    background-color: rgb(247, 166, 179);
+    font-family: 'ITC Benguiat';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+.footer {
+    background-color: #616064;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer img {
+    width: 40px;
+    padding-left: 25px;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #007bff;
+} */
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a base font size and type */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Background styles */
+body {
+    background-image: url('/images/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/* Top bar styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding-left: 340px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    
+    font-weight: bold;
+    font-family: 'ITC Benguiat';
+}
+
+/* Button container styles */
+.buttons {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+/* Button styles */
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.button img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#new-button,
+#status-button,
+#myinfo-button,
+#helpdesk-button {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ITC Benguiat';
+}
+
+#new-button {
+    background-color: rgb(222, 164, 94);
+    color: #f0f0f0;
+    text-shadow: 2px;
+}
+
+#status-button {
+    background-color: green;
+    color: #f0f0f0;
+}
+
+#myinfo-button {
+    background-color: rgb(198, 216, 107);
+    color: aliceblue;
+}
+
+#helpdesk-button {
+    background-color: rgb(247, 166, 179);
+    font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #616064;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer img {
+    width: 40px;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+

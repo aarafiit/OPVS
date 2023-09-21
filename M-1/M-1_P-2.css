@@ -1,0 +1,236 @@
+/* #left{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 50%;
+    background-color: #7895CB;
+    display: inline-block;
+    border: 3px solid #7895CB;
+}
+
+#right{
+    position: absolute;
+    right: 0%;
+    left : 50%;
+    top: 0%;
+    height: 100%;
+    width: 50%;
+    background-image: url("/images/logo.png"); 
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: 3px solid #4A55A2;
+}
+
+#name{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    bottom: 75%;
+    font-size: 40px;
+    display: inline-block;
+}
+
+
+#signin{
+
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    bottom: 75%;
+    font-size: 40px;
+    display: inline-block;
+}
+
+
+#email{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#password{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+#login{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+
+}
+
+#registerLink {
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+#registerLink:hover {
+    color: darkblue;
+}
+
+#register{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+
+#forgotPasswordLink {
+    text-decoration: underline;
+    color: red; 
+}
+
+#forgotPasswordLink:hover {
+    color: darkred; 
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Background color for the entire page */
+}
+
+/* Style the left side container */
+#left {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 50%;
+    background-color: #7895CB;
+    display: inline-block;
+    border: 3px solid #7895CB;
+    padding: 20px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+#name{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    bottom: 75%;
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'ITC Benguiat';
+}
+
+#signin{
+
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    bottom: 75%;
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'ITC Benguiat';
+    
+}
+
+
+
+#email{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+
+#password{
+    position: absolute;
+    left: 15%;
+    top: 55%;
+}
+
+/* Style the login button */
+#login {
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    background-color: #333;
+    color: white;
+    font-size: 10px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: #555; /* Change button color on hover */
+}
+
+
+#registerLink {
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+#registerLink:hover {
+    color: darkblue;
+}
+
+#register{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    font-family: 'ITC Benguiat';
+}
+
+#forgotPasswordLink {
+    text-decoration: underline;
+    color: red; 
+}
+
+#forgotPasswordLink:hover {
+    color: darkred; 
+}
+
+/* Style the right side container (you can add styles for this if needed) */
+#right {
+    position: absolute;
+    right: 0%;
+    left: 50%;
+    top: 0%;
+    height: 100%;
+    width: 50%;
+    background-image: url("/images/logo.png"); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: 3px solid #4A55A2;
+}
