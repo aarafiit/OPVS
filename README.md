@@ -21,7 +21,7 @@ Accessibility: Access the system from anywhere with an internet connection.
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/aarafiit)
+- [@aarafiit](https://www.github.com/aarafiit)
 
 
 ## Deployment
